@@ -1,5 +1,4 @@
+x = [1 ,2,3,4,5,6,7,8,9,10]
+
 for i in range (1,11):
-    print(f"1/{i} = {1/i}")
-
-
-# w malejacy sposob liczby parzyste od 20 do 10 for x in range(20,9,-2)
+    print(1/i)

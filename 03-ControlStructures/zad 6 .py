@@ -1,5 +1,5 @@
-x = int (input("Prędkość w km/h:"))
+x = int (input("Prędkość:"))
 if x < 130:
-    print(":D")
+    print(":)")
 else:
     print("Zwolnij!")

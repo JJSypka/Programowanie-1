@@ -1,5 +1,8 @@
+
+
+
 x = int(input("Podaj liczbę:"))
 if (x % 2) == 0:
-    print ("Number is even")
+    print ("Numver is even")
 else:
     print("Number is not even")

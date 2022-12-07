@@ -2,11 +2,12 @@ import turtle
 
 
 class draw():
-    WIDTH, HEIGHT = 360, 360
+    import turtle
+    WIDTH, HEIGHT = 1200, 1200
 
     screen = turtle.Screen()
     screen.setup(WIDTH + 4, HEIGHT + 8)  # fudge factors due to window borders & title bar
-    screen.setworldcoordinates(0, 0, WIDTH, HEIGHT)
+    screen.setworldcoordinates(-WIDTH, -HEIGHT, WIDTH, HEIGHT)
     turtle.speed(10)
     turtle.tracer(0)
     
@@ -77,7 +78,7 @@ class draw():
         
     def draw_me(self):
         turtle.up()
-        turtle.goto(700,700)
+        turtle.goto(500,600)
         turtle.down()
         turtle.write("Jedrzej Sypka ZZISS 2311",font=("Arial", 16, 'normal', 'bold', 'italic'))
     

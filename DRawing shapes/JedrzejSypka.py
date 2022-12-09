@@ -120,4 +120,3 @@ if __name__ == '__main__':
     test.setup(-10000,10000)
     test.turtle.forward(1)
     input()
-    print(draw())
